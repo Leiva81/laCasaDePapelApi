@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="funtion.js" defer></script>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>La casa de papel</title>
+</head>
+<body>
+  <div>
+    <div class="encabezado">
+      <div class="oscurecer"></div>
+      <h1 class="titulo">LA CASA DE PAPEL</h1>
+    </div>
+
+    <div class="menu">
+      <div class="menuLeft">
+        <div class="menuLeft1"><p class="contenidoLeft"><a href="index.html">PERSONAJES</a></p></div>
+        <div class="menuLeft1"><p class="contenidoLeft"><a href="index2.html">MOMENTOS CLAVE</a></p></div>
+        
+      </div>
+      <div class="menuRight">
+        <div class="menuRight1"><p class="contenidoRight"><a href="index3.html">ACERCA DE...</a></p></div>
+      </div>
+    </div>
+
+    <div class="fondo"></div>
+    <div class="oscurecer1">
+      <div class="seleccion">
+        <label class="labelSeleccion" for="seleccion1">Seleccione un personaje por favor</label>
+        <select id="seleccion" name="seleccion" onchange="recogerInformacion()" >
+        
+        </select>
+      </div>
+      <div class="detalles">
+        <div class="informacion1">
+          <label class="estilo1" id="name1"  for="name">Name:</label>
+          <label id="name" class="estilo" for="name"></label>
+
+          <label class="estilo1" for="alias">Alias:</label>
+          <label id="alias" class="estilo" for="alias"></label>
+
+          <label class="estilo1" for="occupation">Occupation:</label>
+          <label id="occupation" class="estilo" for="occupation"></label>
+
+          <label class="estilo1" for="gender">Gender:</label>
+          <label id="gender" class="estilo" for="gender"></label>
+
+          <label class="estilo1" for="status">Status:</label>
+          <label id="status" class="estilo" for="status"></label>
+        </div>
+        <div class="informacion2">
+          <label class="estilo1" for="romance">Romance:</label>
+          <label id="romance" class="estilo" for="romance"></label>
+
+          <label class="estilo1" for="family">Family:</label>
+          <label id="family" class="estilo" for="family"></label>
+
+          <label class="estilo1" for="first_appearance">Firs appearence:</label>
+          <label id="first_appearance" class="estilo" for="first_appearance"></label>
+
+          <label class="estilo1" for="last_appearance">Last appearance:</label>
+          <label id="last_appearance" class="estilo" for="last_appearance"></label>
+
+          <label class="estilo1" for="played_by">Played by:</label>
+          <label id="played_by" class="estilo" for="played_by"></label>
+        
+        </div>
+        <div class="imagenP">
+          <img class="image" id="image" src="" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
